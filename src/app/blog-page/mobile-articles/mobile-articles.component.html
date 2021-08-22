@@ -1,0 +1,64 @@
+<div class="mobile-articles">
+    <div class="article-main-title">
+        <h2>Mobile</h2>
+    </div>
+    <div *ngIf="posts.length > 3" class="all-button">
+        <a href="">Ver todos <span>&#8594;</span></a>
+    </div>
+    <div *ngIf="posts.length < 1" class="message">
+        <span>Sem publicações novas para mostrar!</span>
+    </div>
+    <div *ngIf="posts.length > 0" class="post-boxes">
+        <div *ngFor="let post of posts" class="post-box">
+            <div class="post-box-img">
+                <img src="../../../assets/images/posts/p3.jpg" alt="">
+            </div>
+            <div class="post-category">
+                <span>Mobile</span>
+            </div>
+            <div class="post-title">
+                <h4><a href="">{{ post.title.rendered }}</a></h4>
+            </div>
+            <div class="post-date-details">
+                <ul>
+                    <li>12 de Junho de 2021</li>
+                    <li>2 min de leitura</li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div class="post-box">
+            <div class="post-box-img">
+                <img src="../../../assets/images/posts/p3.jpg" alt="">
+            </div>
+            <div class="post-category">
+                <span>Mobile</span>
+            </div>
+            <div class="post-title">
+                <h4><a href="">Como se preparar para expôr em feiras</a></h4>
+            </div>
+            <div class="post-date-details">
+                <ul>
+                    <li>12 de Junho de 2021</li>
+                    <li>2 min de leitura</li>
+                </ul>
+            </div>
+        </div>
+        <div class="post-box">
+            <div class="post-box-img">
+                <img src="../../../assets/images/posts/p3.jpg" alt="">
+            </div>
+            <div class="post-category">
+                <span>Mobile</span>
+            </div>
+            <div class="post-title">
+                <h4><a href="">Como se preparar para expôr em feiras</a></h4>
+            </div>
+            <div class="post-date-details">
+                <ul>
+                    <li>12 de Junho de 2021</li>
+                    <li>2 min de leitura</li>
+                </ul>
+            </div>
+        </div> -->
+    </div>
+</div>

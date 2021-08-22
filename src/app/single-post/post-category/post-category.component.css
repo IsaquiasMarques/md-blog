@@ -1,0 +1,27 @@
+
+div.right-category{
+    /* background-color: aqua; */
+    width: 150px;
+    height: 100%;
+    /* text-align: center; */
+    float: right;
+}
+div.right-category div.title{
+    font-size: x-large;
+    padding: 0px 0px 10px 0px;
+    /* margin: 20px 0px; */
+}
+div.right-category div.category-buttons{}
+div.right-category div.category-buttons ul{}
+div.right-category div.category-buttons ul li{
+    list-style: none;
+}
+div.right-category div.category-buttons ul li a{
+    color: #000;
+    /* background-color: #f8f8f8; */
+    padding: 5px 0px;
+    display: block;
+    font-size: small;
+    text-decoration: none;
+}
+div.right-category div.category-buttons ul li a:hover{}

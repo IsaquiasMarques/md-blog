@@ -1,0 +1,8 @@
+div.full-content-post{
+    text-align: justify;
+    font-size: small;
+    color: rgb(64, 63, 63);
+}
+div.full-content-post p{
+    font-family: var(--font-family-Poppins-M);
+}

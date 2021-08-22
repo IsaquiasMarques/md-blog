@@ -1,0 +1,67 @@
+div.content-comment-form{
+    padding: 40px;
+    margin: 50px 0px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+div.content-comment-form div.comment-number-text{}
+div.content-comment-form div.comment-number-text div.title{
+    margin: 5px 0px;
+}
+div.content-comment-form div.comment-number-text div.text{
+    font-size: small;
+    margin: 5px 0px;
+    color: #727272;
+}
+div.content-comment-form div.comment-number-text div.text span{}
+div.content-comment-form div.comment-form{
+    margin: 1px 0px;
+}
+div.content-comment-form div.comment-form form{
+    position: relative;
+}
+div.content-comment-form div.comment-form form > div{
+    display: inline-block;
+    width: 47%;
+    /* background-color: #fc0; */
+    margin: 20px 0px;
+}
+div.content-comment-form div.comment-form form > div:nth-child(1){
+    float: left;
+}
+div.content-comment-form div.comment-form form > div:nth-child(2){
+    float: right;
+}
+div.content-comment-form div.comment-form form > div input{
+    width: 100%;
+    border-radius: 13px;
+    border: 1px solid #ccc;
+    padding: 15px;  
+}
+div.content-comment-form div.comment-form form > div input:focus{
+    outline: none;
+}
+div.content-comment-form div.comment-form form > section textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    padding: 15px;
+    height: 200px;
+}
+div.content-comment-form div.comment-form form > section textarea:focus{
+    outline: none;
+}
+div.content-comment-form div.comment-form form section.button{
+    margin: 15px 0px;
+}
+div.content-comment-form div.comment-form form section.button input{
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px;
+    border: none;
+    font-family: var(--font-family-Poppins-L);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}

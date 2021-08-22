@@ -1,0 +1,14 @@
+/* Container Body */
+
+div.container-body{
+    /* padding: 10px; */
+    /* background-color: #fc0; */
+    width: 100%;
+    position: relative;
+    margin: 20px 0px;
+    position: relative;
+}
+div.container-body > div{
+    display: inline-block;
+    height: 100%;
+}
