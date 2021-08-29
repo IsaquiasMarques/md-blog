@@ -13,6 +13,11 @@ div.graphic-design-articles div.article-main-title h2{
     font-size: x-large;
 }
 
+div.graphic-design-articles div.message{
+    padding: 15px 0px;
+    margin: 20px 0px;
+}
+
 div.graphic-design-articles div.all-button{
     position: absolute;
     top: 0%;
