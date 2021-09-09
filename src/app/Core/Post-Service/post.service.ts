@@ -25,9 +25,11 @@ export class PostService {
 
   MobilePostURL = "http://localhost/wordpress/wp-json/wp/v2/posts?categories=7";
 
-  GraphicDesignURL = "http://localhost/wordpress/wp-json/wp/v2/posts?categories=6";
+  GraphicDesignURL = "http://localhost/wordpress/wp-json/wp/v2/posts?categories=6&per_page=3";
 
-  allPostsUrl = "http://localhost/wordpress/wp-json/wp/v2/posts?per_page=3";
+  allPostsUrl = "http://localhost/wordpress/wp-json/wp/v2/posts?per_page=3&per_page=3";
+
+  public singleurl = "";
 
   getPosts(){
     return this.http.get<any>(this.allPostsUrl);
@@ -39,6 +41,12 @@ export class PostService {
 
   getGraphicDesignPosts(){
     return this.http.get<any>(this.GraphicDesignURL);
+  }
+
+  getPostByID(id: number){
+    this.singleurl = "http://localhost/wordpress/wp-json/wp/v2/posts/"+id;
+
+    return this.http.get<any>(this.singleurl);
   }
 
 }
